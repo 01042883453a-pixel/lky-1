@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+  body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #292524;
+  }
+}
+
+/* Font scale classes */
+.font-scale-normal {
+  --app-font-scale: 1;
+}
+
+.font-scale-large {
+  --app-font-scale: 1.12;
+  font-size: 1.125rem;
+}
+
+.font-scale-xlarge {
+  --app-font-scale: 1.25;
+  font-size: 1.25rem;
+}
+
+.font-scale-large .text-xs {
+  font-size: 0.85rem !important;
+}
+.font-scale-large .text-sm {
+  font-size: 1rem !important;
+}
+.font-scale-large .text-base {
+  font-size: 1.15rem !important;
+}
+.font-scale-large .text-lg {
+  font-size: 1.3rem !important;
+}
+.font-scale-large .text-xl {
+  font-size: 1.5rem !important;
+}
+
+.font-scale-xlarge .text-xs {
+  font-size: 0.95rem !important;
+}
+.font-scale-xlarge .text-sm {
+  font-size: 1.1rem !important;
+}
+.font-scale-xlarge .text-base {
+  font-size: 1.25rem !important;
+}
+.font-scale-xlarge .text-lg {
+  font-size: 1.45rem !important;
+}
+.font-scale-xlarge .text-xl {
+  font-size: 1.65rem !important;
+}
+
+/* Custom subtle scrollbar */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 9999px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}

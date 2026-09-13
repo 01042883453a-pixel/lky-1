@@ -1,0 +1,6 @@
+{
+  "name": "독서 기록장",
+  "description": "일자별 독서한 책, 저자, 주요 내용 필사 및 감상을 기록하고 사진 첨부와 일간/주간/월간 조회를 제공하는 독서 노트 웹앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
